@@ -1,4 +1,5 @@
 {
+  "homepage": "https://daniel692a.github.io/lazy-loading",
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build",
