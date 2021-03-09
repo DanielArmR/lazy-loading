@@ -4,4 +4,6 @@
 
 .fox-image{
     width: 20rem;
+    background-color: rgb(212, 212, 212);
+    min-height: 220px;
 }

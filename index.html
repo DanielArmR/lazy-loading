@@ -14,7 +14,7 @@
       href="https://daniel692a.github.io/lazy-loading/_dist_/index.css"
     />
     <meta name="robots" content="index,follow" />
-    <title>Lazy loading Images</title>
+    <title>Foxes</title>
   </head>
   <body>
     <div class="py-10 max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -30,7 +30,8 @@
           Random Images
         </h3>
         <section id="images">
-          <button class="bg-yellow-500 active:bg-red-400 px-10 py-3 text-xl font-semibold rounded-2xl my-4 focus:outline-none" id="addB">Añadir imagen</button>
+          <button class="bg-purple-600 active:bg-red-400 px-10 py-3 text-xl font-semibold rounded-2xl my-4 focus:outline-none text-white" id="addB">Añadir imagen🦊</button>
+          <button class="bg-yellow-500 active:bg-red-400 px-10 py-3 text-xl font-semibold rounded-2xl my-4 focus:outline-none text-white" id="clean">Limpiar🦊</button>
         </section>
         <p class="mt-16 text-xl leading-7 text-gray-500 underline">
           <a href="https://github.com/daniel692a/lazy-loading" target="_blank"
@@ -42,5 +43,14 @@
 
     <!-- Add more scripts here -->
     <script type="module" src="https://daniel692a.github.io/lazy-loading/_dist_/index.js"></script>
+    <script>
+      let appendImgs = 0;
+      let loadImages = 0;
+      const logImgs = () =>{
+        console.log(`⚪ Imagenes agregadas: ${appendImgs}`);
+        console.log(`🟣 Imagenes cargadas: ${loadImages}`);
+        console.log(`-----------------------------`);
+      }
+    </script>
   </body>
 </html>
