@@ -27,6 +27,8 @@ const cleanImages = () => {
     let images = document.querySelectorAll('figure');
     let imagesArray = [...images];
     imagesArray.forEach((image) => image.remove());
+    appendImgs = 0;
+    loadImages = 0;
     console.clear();
 }
 const cleanButton = document.querySelector('#clean');
